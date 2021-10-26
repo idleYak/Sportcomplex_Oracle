@@ -83,7 +83,7 @@ CREATE TABLE kdct_training_shedule (
 );
 
 
---добавление тестового объекта к имеющимся
+--adding a test object to the existing ones
 
 CREATE TABLE testing (
     testing_id              NUMBER(9) NOT NULL,
@@ -96,7 +96,7 @@ CREATE TABLE testing (
     kdct_room_accounting_id NUMBER(9) NOT NULL
 );
 
---создание последовательностей для id у таблиц (пункт 7)
+--СЃcreating sequences for id of tables (paragraph 7)
 CREATE SEQUENCE kspo_trainer_seq
  START WITH     1000
  INCREMENT BY   1
